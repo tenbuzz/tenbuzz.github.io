@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenbuzz - Anime Lover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #00aaff;
+        }
+
+        .anime-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .anime-character {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .anime-character:hover {
+            transform: scale(1.05);
+        }
+
+        .anime-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .description {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        .love-message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #00aaff;
+        }
+
+        .telegram-link {
+            color: #00aaff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Tenbuzz's Anime World!</h1>
+
+    <div class="anime-gallery">
+        <a href="https://www.pinterest.com/pin/737183032765629840/" target="_blank" class="anime-character">
+            <img class="anime-image" src="https://i.pinimg.com/564x/f4/69/03/f4690395d965d6fc550fe34d84d9a30c.jpg" alt="Gojo Satoru 1">
+            <h2>Gojo Satoru - Image 1</h2>
+        </a>
+
+        <a href="https://www.pinterest.com/pin/723250021429167651/" target="_blank" class="anime-character">
+            <img class="anime-image" src="https://i.pinimg.com/564x/e0/9b/ee/e09beea932a042587e4d575f60262815.jpg" alt="Gojo Satoru 2">
+            <h2>Gojo Satoru - Image 2</h2>
+        </a>
+
+        <!-- Add more images with the same format -->
+        <!-- Replace the image URLs with the actual image URLs -->
+
+    </div>
+
+    <div class="description">
+        <p>Hello there! I'm Tenbuzz, an avid anime lover, and my heart belongs to Jujutsu Kaisen's Gojo Satoru. I enjoy diving into the fantastical worlds of anime, exploring diverse characters, and embracing the emotions they bring.</p>
+        <p>If you're also a fan of anime or share my love for Gojo Satoru, let's <span class="telegram-link">connect</span> and discuss our favorite shows and characters!</p>
+    </div>
+
+    <div class="love-message">
+        <p>Keep spreading the anime love!</p>
+    </div>
+
+    <script>
+        // Placeholder hyperlink function
+        const telegramLink = "https://t.me/+UF412RHSxSFmN2I9";
+        const telegramLinkElement = document.querySelector(".telegram-link");
+        telegramLinkElement.addEventListener("click", () => {
+            window.open(telegramLink, "_blank");
+        });
+    </script>
+</body>
+</html>
